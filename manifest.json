@@ -32,11 +32,5 @@
   "background_color": "#FFFFFF",
   "display": "fullscreen",
   "orientation": "portrait",
-  "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "platform": "play",
-      "id": "com.google.samples.apps.iosched"
-    }
-  ]
+  "prefer_related_applications": true
 }
