@@ -7,7 +7,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
 });
 
-document.querySelector('button').onclick = () => {
+document.querySelector('button').onclick = async () => {
   deferredPrompt.prompt();
 
   const { outcome } = await deferredPrompt.userChoice;
